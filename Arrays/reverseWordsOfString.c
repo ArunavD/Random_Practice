@@ -21,7 +21,7 @@ int main()
 
 	for(i=0;i<(strlen(str));i++)
 	{
-		if(str[i]==' ' || str[i]=='\0')
+		if(str[i]==' ' )
 		{
 			newStr[j][k]='\0';
 			j++;//next word
@@ -34,6 +34,7 @@ int main()
 			k++;
 		}
 	}
+	newStr[j][k]='\0';
 
 	for(i=j;i>=0;i--)
 	{
