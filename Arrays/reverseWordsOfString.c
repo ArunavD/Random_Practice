@@ -19,7 +19,7 @@ int main()
 	scanf("%[^\n]%*c",str);
 
 
-	for(i=0;i<=(strlen(str));i++)
+	for(i=0;i<(strlen(str));i++)
 	{
 		if(str[i]==' ' || str[i]=='\0')
 		{
