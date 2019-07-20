@@ -1,3 +1,5 @@
+//yet to complete
+
 //print the pattern as follows
 //input1:4
 //output1:
